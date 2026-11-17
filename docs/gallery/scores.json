@@ -1,0 +1,263 @@
+{
+  "artwork_license": "CC0-1.0",
+  "side_cells": 100,
+  "shuffle_seed": 20261117,
+  "patterns": {
+    "checkerboard": {
+      "title": "Checkerboard",
+      "grid_csv": "data/checkerboard.csv",
+      "image": "checkerboard.png",
+      "model_version": "BADI-2.0-order-aware-provisional",
+      "structural_score": 43,
+      "craft_adjusted_complexity_score": 38,
+      "structural_ratio": 1.7318936882153294e-05,
+      "craft_adjusted_ratio": 1.367536387028528e-05,
+      "above_reference": false,
+      "occupied_beads_N": 10000,
+      "active_area_A": 10000,
+      "used_colors_K": 2,
+      "global_color_entropy_bits": 1.0,
+      "color_ambiguity_Q": 2.304854375011892e-121,
+      "boundary_density_B": 1.0,
+      "description": {
+        "description_bits": 51,
+        "model": "checkerboard",
+        "orientation": 0,
+        "header_bits": 51,
+        "payload_bits": 0,
+        "active_shape_H_W": [
+          100,
+          100
+        ],
+        "active_bbox_xyxy": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "alphabet_size_including_blank": 2,
+        "bits_per_active_cell": 0.0051,
+        "round_trip_exact": true,
+        "consumed_bits": 51,
+        "stored_bytes_including_padding": 7,
+        "family_best_bits": {
+          "raw": 10051,
+          "checkerboard": 51,
+          "run_length": 20078,
+          "deflate": 568,
+          "tile_exceptions": 62
+        }
+      },
+      "reference_description_bits": 1963186,
+      "singleton_description_bits": 17,
+      "reference_Q": 0.13321667512573493,
+      "reference_grid_sha256": "3bdf561c53292009b3611e04a8623835d1b4430fa81037aec12373199f400d59",
+      "palette_sha256": "f2e6f42641395a68aeb37eff4a93e3803bee76d12ec70d8a3bded4b2a021e4e3",
+      "config": {
+        "max_tile_side": 8,
+        "confusion_weight": 2.0,
+        "score_exponent": 0.5,
+        "reference_side": 500,
+        "reference_seed": 1729
+      },
+      "runtime": {
+        "python": "3.14.7",
+        "numpy": "2.5.5",
+        "zlib": "1.3.1.zlib-ng"
+      },
+      "encoded_grid_sha256": "bf2928d0467c62feb60cb70f3548ee5c4948ca79d6deb9fe74df8fd657c5078b"
+    },
+    "flower-tile": {
+      "title": "Repeating flower tile",
+      "grid_csv": "data/flower-tile.csv",
+      "image": "flower-tile.png",
+      "model_version": "BADI-2.0-order-aware-provisional",
+      "structural_score": 101,
+      "craft_adjusted_complexity_score": 90,
+      "structural_ratio": 9.932919682411449e-05,
+      "craft_adjusted_ratio": 7.843223396297728e-05,
+      "above_reference": false,
+      "occupied_beads_N": 10000,
+      "active_area_A": 10000,
+      "used_colors_K": 4,
+      "global_color_entropy_bits": 1.4448165254320384,
+      "color_ambiguity_Q": 6.674554979891781e-12,
+      "boundary_density_B": 0.3138666666666666,
+      "description": {
+        "description_bits": 212,
+        "model": "tile_exceptions",
+        "orientation": 0,
+        "header_bits": 69,
+        "payload_bits": 143,
+        "active_shape_H_W": [
+          100,
+          100
+        ],
+        "active_bbox_xyxy": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "alphabet_size_including_blank": 4,
+        "bits_per_active_cell": 0.0212,
+        "round_trip_exact": true,
+        "consumed_bits": 212,
+        "stored_bytes_including_padding": 27,
+        "family_best_bits": {
+          "raw": 20069,
+          "run_length": 16125,
+          "deflate": 834,
+          "tile_exceptions": 212
+        },
+        "tile_shape_H_W": [
+          8,
+          8
+        ],
+        "exception_cells": 0
+      },
+      "reference_description_bits": 1963186,
+      "singleton_description_bits": 17,
+      "reference_Q": 0.13321667512573493,
+      "reference_grid_sha256": "3bdf561c53292009b3611e04a8623835d1b4430fa81037aec12373199f400d59",
+      "palette_sha256": "f2e6f42641395a68aeb37eff4a93e3803bee76d12ec70d8a3bded4b2a021e4e3",
+      "config": {
+        "max_tile_side": 8,
+        "confusion_weight": 2.0,
+        "score_exponent": 0.5,
+        "reference_side": 500,
+        "reference_seed": 1729
+      },
+      "runtime": {
+        "python": "3.14.7",
+        "numpy": "2.5.5",
+        "zlib": "1.3.1.zlib-ng"
+      },
+      "encoded_grid_sha256": "9dc704e467f7150ffa00d7c87fbbd3c97d985ae91df9c726c9afe085dc8bb369"
+    },
+    "mountain-lake": {
+      "title": "Original mountain lake",
+      "grid_csv": "data/mountain-lake.csv",
+      "image": "mountain-lake.png",
+      "model_version": "BADI-2.0-order-aware-provisional",
+      "structural_score": 471,
+      "craft_adjusted_complexity_score": 423,
+      "structural_ratio": 0.002209183213467613,
+      "craft_adjusted_ratio": 0.0017772260150386437,
+      "above_reference": false,
+      "occupied_beads_N": 10000,
+      "active_area_A": 10000,
+      "used_colors_K": 13,
+      "global_color_entropy_bits": 3.384916739037141,
+      "color_ambiguity_Q": 0.009405078460337255,
+      "boundary_density_B": 0.07564166666666665,
+      "description": {
+        "description_bits": 4354,
+        "model": "deflate",
+        "orientation": 2,
+        "header_bits": 143,
+        "payload_bits": 4211,
+        "active_shape_H_W": [
+          100,
+          100
+        ],
+        "active_bbox_xyxy": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "alphabet_size_including_blank": 13,
+        "bits_per_active_cell": 0.4354,
+        "round_trip_exact": true,
+        "consumed_bits": 4354,
+        "stored_bytes_including_padding": 545,
+        "family_best_bits": {
+          "raw": 40143,
+          "run_length": 5499,
+          "deflate": 4354
+        }
+      },
+      "reference_description_bits": 1963186,
+      "singleton_description_bits": 17,
+      "reference_Q": 0.13321667512573493,
+      "reference_grid_sha256": "3bdf561c53292009b3611e04a8623835d1b4430fa81037aec12373199f400d59",
+      "palette_sha256": "f2e6f42641395a68aeb37eff4a93e3803bee76d12ec70d8a3bded4b2a021e4e3",
+      "config": {
+        "max_tile_side": 8,
+        "confusion_weight": 2.0,
+        "score_exponent": 0.5,
+        "reference_side": 500,
+        "reference_seed": 1729
+      },
+      "runtime": {
+        "python": "3.14.7",
+        "numpy": "2.5.5",
+        "zlib": "1.3.1.zlib-ng"
+      },
+      "encoded_grid_sha256": "ef4da6ae3e340b1aec30f98df84607ac1e8f362180caa647d3274299f22f00b2"
+    },
+    "shuffled-landscape": {
+      "title": "Same landscape, shuffled",
+      "grid_csv": "data/shuffled-landscape.csv",
+      "image": "shuffled-landscape.png",
+      "model_version": "BADI-2.0-order-aware-provisional",
+      "structural_score": 1431,
+      "craft_adjusted_complexity_score": 1333,
+      "structural_ratio": 0.02043940180392009,
+      "craft_adjusted_ratio": 0.01775222779656107,
+      "above_reference": false,
+      "occupied_beads_N": 10000,
+      "active_area_A": 10000,
+      "used_colors_K": 13,
+      "global_color_entropy_bits": 3.384916739037141,
+      "color_ambiguity_Q": 0.04996749754472402,
+      "boundary_density_B": 0.8936666666666668,
+      "description": {
+        "description_bits": 40143,
+        "model": "raw",
+        "orientation": 0,
+        "header_bits": 143,
+        "payload_bits": 40000,
+        "active_shape_H_W": [
+          100,
+          100
+        ],
+        "active_bbox_xyxy": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "alphabet_size_including_blank": 13,
+        "bits_per_active_cell": 4.0143,
+        "round_trip_exact": true,
+        "consumed_bits": 40143,
+        "stored_bytes_including_padding": 5018,
+        "family_best_bits": {
+          "raw": 40143,
+          "run_length": 46624,
+          "deflate": 41296
+        }
+      },
+      "reference_description_bits": 1963186,
+      "singleton_description_bits": 17,
+      "reference_Q": 0.13321667512573493,
+      "reference_grid_sha256": "3bdf561c53292009b3611e04a8623835d1b4430fa81037aec12373199f400d59",
+      "palette_sha256": "f2e6f42641395a68aeb37eff4a93e3803bee76d12ec70d8a3bded4b2a021e4e3",
+      "config": {
+        "max_tile_side": 8,
+        "confusion_weight": 2.0,
+        "score_exponent": 0.5,
+        "reference_side": 500,
+        "reference_seed": 1729
+      },
+      "runtime": {
+        "python": "3.14.7",
+        "numpy": "2.5.5",
+        "zlib": "1.3.1.zlib-ng"
+      },
+      "encoded_grid_sha256": "a759de9070045b52a7d82ce9e8a5032b1428db9640a4ac741d2edafcdfd5e716"
+    }
+  }
+}

@@ -8,6 +8,24 @@ Use it to compare exact patterns, study repetition and irregularity, or add expl
 
 > **Experimental model.** Scores are reproducible, but have not been calibrated against human ratings, assembly time, or error rates.
 
+## A visual guide to structural complexity
+
+All four original patterns below contain **100 × 100 cells and 10,000 beads**. The captions show approximate `structural_score` values out of 10,000, computed from their exact color-code matrices. White backgrounds count as beads too.
+
+| **Checkerboard · ≈43** | **Repeating flower tile · ≈101** |
+| :---: | :---: |
+| <img src="docs/gallery/checkerboard.png" width="320" alt="An original 100 by 100 black-and-white checkerboard bead pattern, structural score approximately 43"> | <img src="docs/gallery/flower-tile.png" width="320" alt="An original repeating yellow flower bead pattern, structural score approximately 101"> |
+| A short alternation rule describes the whole layout. | A small motif and its repetition describe the layout. |
+
+| **Original mountain lake · ≈471** | **Same landscape, shuffled · ≈1,431** |
+| :---: | :---: |
+| <img src="docs/gallery/mountain-lake.png" width="320" alt="An original pixel-art mountain lake with trees and a sun, structural score approximately 471"> | <img src="docs/gallery/shuffled-landscape.png" width="320" alt="The same mountain-lake beads randomly rearranged into noise, structural score approximately 1431"> |
+| Regions, edges, and details need more instructions. | The same 13 colors and their counts, with much less regularity. |
+
+The landscape and shuffled version have identical bead counts and color histograms. Their arrangement changes the score. A higher score means more information to describe under this model; it does not mean better artwork or a measured increase in human effort. The 10,000 anchor is a larger 500 × 500 random pattern, so this gallery covers only part of the scale.
+
+These illustrations and their original layouts are **[CC0 / public domain](docs/gallery/LICENSE.md)**, created for this repository without external artwork. [Exact CSVs, recorded scores, and reproduction instructions](docs/gallery/README.md) are included. Runtime/compressor differences can move scores slightly.
+
 ## What the algorithm reports
 
 | Output | Meaning |
@@ -120,6 +138,8 @@ Changing the palette, grammar, reference, or scoring parameters creates a differ
 | [config_v2.json](config_v2.json) | Default settings |
 | [example_inputs/](example_inputs/) | Exact source patterns and controlled comparisons |
 | [results/](results/) | Recorded scores and binary descriptions |
+| [docs/gallery/](docs/gallery/) | Original CC0 illustrations, exact layouts, and measured gallery scores |
+| [docs/generate_gallery.py](docs/generate_gallery.py) | Recreate the artwork and verify its score comparisons |
 | [benchmark.json](benchmark.json), [tests.json](tests.json) | Reference values and recorded computational checks |
 | [SHA256.json](SHA256.json) | SHA-256 file manifest for this repository snapshot |
 
