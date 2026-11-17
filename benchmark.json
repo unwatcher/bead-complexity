@@ -1,0 +1,35 @@
+{
+  "v2": {
+    "description": {
+      "description_bits": 1961922,
+      "model": "deflate",
+      "orientation": 0,
+      "header_bits": 1823,
+      "payload_bits": 1960099,
+      "active_shape_H_W": [
+        500,
+        500
+      ],
+      "active_bbox_xyxy": [
+        0,
+        0,
+        500,
+        500
+      ],
+      "alphabet_size_including_blank": 221,
+      "bits_per_active_cell": 7.847688,
+      "round_trip_exact": true,
+      "consumed_bits": 1961922,
+      "stored_bytes_including_padding": 245241,
+      "family_best_bits": {
+        "raw": 2001823,
+        "run_length": 2243362,
+        "deflate": 1961922
+      }
+    },
+    "Q": 0.13321667512573485,
+    "grid_sha256": "3bdf561c53292009b3611e04a8623835d1b4430fa81037aec12373199f400d59"
+  },
+  "v1_workload": 1491597.4568677628,
+  "single_bits": 17
+}

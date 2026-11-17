@@ -1,0 +1,66 @@
+{
+  "model_version": "BADI-2.0-order-aware-provisional",
+  "structural_score": 43,
+  "craft_adjusted_complexity_score": 38,
+  "structural_ratio": 1.7330094984211775e-05,
+  "craft_adjusted_ratio": 1.3684174521123137e-05,
+  "above_reference": false,
+  "occupied_beads_N": 10000,
+  "active_area_A": 10000,
+  "used_colors_K": 2,
+  "global_color_entropy_bits": 1.0,
+  "color_ambiguity_Q": 2.304854375011892e-121,
+  "boundary_density_B": 1.0,
+  "description": {
+    "description_bits": 51,
+    "model": "checkerboard",
+    "orientation": 0,
+    "header_bits": 51,
+    "payload_bits": 0,
+    "active_shape_H_W": [
+      100,
+      100
+    ],
+    "active_bbox_xyxy": [
+      0,
+      0,
+      100,
+      100
+    ],
+    "alphabet_size_including_blank": 2,
+    "bits_per_active_cell": 0.0051,
+    "round_trip_exact": true,
+    "consumed_bits": 51,
+    "stored_bytes_including_padding": 7,
+    "family_best_bits": {
+      "raw": 10051,
+      "checkerboard": 51,
+      "run_length": 20078,
+      "deflate": 568,
+      "tile_exceptions": 62
+    }
+  },
+  "reference_description_bits": 1961922,
+  "singleton_description_bits": 17,
+  "reference_Q": 0.13321667512573485,
+  "reference_grid_sha256": "3bdf561c53292009b3611e04a8623835d1b4430fa81037aec12373199f400d59",
+  "palette_sha256": "f2e6f42641395a68aeb37eff4a93e3803bee76d12ec70d8a3bded4b2a021e4e3",
+  "config": {
+    "max_tile_side": 8,
+    "confusion_weight": 2.0,
+    "score_exponent": 0.5,
+    "reference_side": 500,
+    "reference_seed": 1729
+  },
+  "runtime": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "zlib": "1.3.1"
+  },
+  "encoded_grid_sha256": "bf2928d0467c62feb60cb70f3548ee5c4948ca79d6deb9fe74df8fd657c5078b",
+  "workload_v1": {
+    "difficulty_score": 1170,
+    "raw_workload_W": 20394.899042607914,
+    "workload_per_bead": 2.0394899042607912
+  }
+}

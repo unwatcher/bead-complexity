@@ -1,0 +1,4 @@
+* text=auto eol=lf
+# Preserve exact CSV bytes so the recorded file hashes remain portable.
+*.csv -text whitespace=cr-at-eol
+*.bpc binary

@@ -1,0 +1,7 @@
+{
+  "max_tile_side": 8,
+  "confusion_weight": 2.0,
+  "score_exponent": 0.5,
+  "reference_side": 500,
+  "reference_seed": 1729
+}

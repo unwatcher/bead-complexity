@@ -1,0 +1,32 @@
+{
+  "checks": {
+    "lower_anchor_1": true,
+    "upper_anchor_10000": true,
+    "girl_above_full_checker": true,
+    "girl_above_masked_checker": true,
+    "girl_above_same_mask_same_24_color_motif": true,
+    "shuffle_same_mask_same_histogram_harder": true,
+    "near_color_same_structural_bits": true,
+    "near_color_higher_craft_complexity": true,
+    "one_exception_increases_bits": true,
+    "5pct_exceptions_increase_bits": true,
+    "orientation_0_bit_invariance": true,
+    "orientation_1_bit_invariance": true,
+    "orientation_2_bit_invariance": true,
+    "orientation_3_bit_invariance": true,
+    "orientation_4_bit_invariance": true,
+    "orientation_5_bit_invariance": true,
+    "orientation_6_bit_invariance": true,
+    "orientation_7_bit_invariance": true,
+    "outer_padding_invariance": true,
+    "palette_label_permutation_invariance": true,
+    "input_grid_unchanged": true,
+    "all_reported_roundtrips_exact": true,
+    "same_mask_control_N_matches": true,
+    "24_color_motif_control_K_matches": true,
+    "shuffle_preserves_histogram": true
+  },
+  "passed": 25,
+  "total": 25,
+  "human_validation": false
+}

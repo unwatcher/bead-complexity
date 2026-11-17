@@ -1,0 +1,65 @@
+{
+  "model_version": "BADI-2.0-order-aware-provisional",
+  "structural_score": 821,
+  "craft_adjusted_complexity_score": 757,
+  "structural_ratio": 0.0067184700584381,
+  "craft_adjusted_ratio": 0.005714988959009787,
+  "above_reference": false,
+  "occupied_beads_N": 9400,
+  "active_area_A": 9400,
+  "used_colors_K": 24,
+  "global_color_entropy_bits": 2.7580761577680146,
+  "color_ambiguity_Q": 0.0386384512437288,
+  "boundary_density_B": 0.20282801418439714,
+  "description": {
+    "description_bits": 13198,
+    "model": "deflate",
+    "orientation": 5,
+    "header_bits": 233,
+    "payload_bits": 12965,
+    "active_shape_H_W": [
+      94,
+      100
+    ],
+    "active_bbox_xyxy": [
+      0,
+      0,
+      100,
+      94
+    ],
+    "alphabet_size_including_blank": 24,
+    "bits_per_active_cell": 1.4040425531914893,
+    "round_trip_exact": true,
+    "consumed_bits": 13198,
+    "stored_bytes_including_padding": 1650,
+    "family_best_bits": {
+      "raw": 47233,
+      "run_length": 15738,
+      "deflate": 13198,
+      "tile_exceptions": 36645
+    }
+  },
+  "reference_description_bits": 1961922,
+  "singleton_description_bits": 17,
+  "reference_Q": 0.13321667512573485,
+  "reference_grid_sha256": "3bdf561c53292009b3611e04a8623835d1b4430fa81037aec12373199f400d59",
+  "palette_sha256": "f2e6f42641395a68aeb37eff4a93e3803bee76d12ec70d8a3bded4b2a021e4e3",
+  "config": {
+    "max_tile_side": 8,
+    "confusion_weight": 2.0,
+    "score_exponent": 0.5,
+    "reference_side": 500,
+    "reference_seed": 1729
+  },
+  "runtime": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "zlib": "1.3.1"
+  },
+  "encoded_grid_sha256": "b04540fbdd166a1e3103a7fd0c3aa39513eacc1f25618a1d79dc67f66e031253",
+  "workload_v1": {
+    "difficulty_score": 1148,
+    "raw_workload_W": 19616.55907005172,
+    "workload_per_bead": 2.086867986175715
+  }
+}
